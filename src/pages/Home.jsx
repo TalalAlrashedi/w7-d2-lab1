@@ -48,14 +48,14 @@ const Home = () => {
   };
 
   return (
-    <div className="p-6 max-w-2xl mx-auto space-y-5">
-      <h2 className="text-2xl font-bold text-center text-violet-600">
+    <div className="p-6 max-w-2xl mx-auto space-y-5 ">
+      <h2 className="text-2xl   font-bold text-center text-violet-600">
         مرحبًا، {userName}
       </h2>
 
       <form
         onSubmit={calculateBMI}
-        className="space-y-4 bg-gray-100 p-4 rounded shadow"
+        className="space-y-4  p-4  rounded-2xl rounded shadow"
       >
         <div className="flex flex-col">
           <label className="text-right">الوزن (كجم)</label>
